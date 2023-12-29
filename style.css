@@ -119,7 +119,7 @@ body {
 
 .buttons {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     align-items: end;
     padding-bottom: 20px;
